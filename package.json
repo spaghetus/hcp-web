@@ -1,0 +1,29 @@
+{
+  "name": "hcp-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel serve ./src/index.html",
+    "build": "parcel build ./src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spaghetus/hcp-web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spaghetus/hcp-web/issues"
+  },
+  "homepage": "https://github.com/spaghetus/hcp-web#readme",
+  "devDependencies": {
+    "@parcel/transformer-toml": "^2.0.0-rc.0",
+    "parcel": "^2.0.0-rc.0",
+    "xo": "^0.44.0"
+  },
+  "dependencies": {
+    "cbor": "*"
+  }
+}
