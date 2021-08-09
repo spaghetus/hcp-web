@@ -1,0 +1,13 @@
+table:not(.no-border), table:not(.no-border) td {
+	border-style: solid;
+	border-width: 1px;
+	border-collapse: collapse;
+}
+
+td {
+	padding: 5px;
+}
+
+label {
+	padding-right: 10px;
+}
